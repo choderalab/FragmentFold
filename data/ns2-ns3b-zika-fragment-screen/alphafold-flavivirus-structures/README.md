@@ -1,0 +1,1 @@
+This directory contains the alphafold-generated structures of relevant flavirus variants
