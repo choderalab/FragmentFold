@@ -1,0 +1,119 @@
+Sender: LSF System <lsfadmin@lx08>
+Subject: Job 5091893: <DOCK> in cluster <lila> Done
+
+Job <DOCK> was submitted from host <lilac-ln02> by user <pengs> in cluster <lila> at Fri Mar 29 15:49:04 2024
+Job was executed on host(s) <lx08>, in queue <gpuqueue>, as user <pengs> in cluster <lila> at Fri Mar 29 15:49:05 2024
+</home/pengs> was used as the home directory.
+</home/pengs/fold_zika/test_dock> was used as the working directory.
+Started at Fri Mar 29 15:49:05 2024
+Terminated at Fri Mar 29 15:51:33 2024
+Results reported at Fri Mar 29 15:51:33 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -J DOCK
+#BSUB -n 1
+#BSUB -R rusage[mem=32]
+#BSUB -q gpuqueue
+#BSUB -gpu "num=1"
+#BSUB -W 10:00
+#BSUB -oo log_files/dock_test.out
+#BSUB -eo log_files/dock_test.stderr
+source ~/.bashrc
+cd /home/pengs/fold_zika/test_dock
+conda activate asapdiscovery
+
+asap-docking cross-docking --cache-dir /home/pengs/fold_zika/prev_prepped/NP_722463.1_prepped/NP_722463.1_lig_0 --use-only-cache --output-dir /home/pengs/fold_zika/test_dock/test_output --target ZIKV-NS2B-NS3pro --ligands input/lig_0.smi --pdb-file input/NP_722463.1_lig_0.pdb
+
+echo done
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.00 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     32.00 GB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                17
+    Run time :                                   148 sec.
+    Turnaround time :                            149 sec.
+
+The output (if any) follows:
+
+[03/29/24 15:51:17] INFO     Writing to / overwriting       cross_docking.py:101
+                             output directory:                                  
+                             /lila/home/pengs/fold_zika/tes                     
+                             t_dock/test_output                                 
+                    INFO     Running cross docking with     cross_docking.py:105
+                             inputs:                                            
+                             ligands='/lila/home/pengs/fold                     
+                             _zika/test_dock/input/lig_0.sm                     
+                             i'                                                 
+                             pdb_file=PosixPath('/lila/home                     
+                             /pengs/fold_zika/test_dock/inp                     
+                             ut/NP_722463.1_lig_0.pdb')                         
+                             fragalysis_dir=None                                
+                             structure_dir=None                                 
+                             cache_dir='/lila/home/pengs/fo                     
+                             ld_zika/prev_prepped/NP_722463                     
+                             .1_prepped/NP_722463.1_lig_0'                      
+                             use_only_cache=True                                
+                             save_to_cache=True                                 
+                             target=<TargetTags.ZIKV-NS2B-N                     
+                             S3pro: 'ZIKV-NS2B-NS3pro'>                         
+                             write_final_sdf=True                               
+                             use_dask=False                                     
+                             dask_type=<DaskType.LOCAL:                         
+                             'local'>                                           
+                             dask_failure_mode=<DaskFailure                     
+                             Mode.SKIP: 'skip'>                                 
+                             dask_cluster_n_workers=10                          
+                             dask_cluster_max_workers=200                       
+                             n_select=5 logname=''                              
+                             loglevel='INFO'                                    
+                             output_dir=PosixPath('/lila/ho                     
+                             me/pengs/fold_zika/test_dock/t                     
+                             est_output') overwrite=True                        
+                             walltime='72h'                                     
+                             structure_selector=<StructureS                     
+                             elector.LEAVE_SIMILAR_OUT:                         
+                             'LeaveSimilarOutSelector'>                         
+                             multi_reference=False                              
+                             relax=<POSIT_RELAX_MODE.NONE:                      
+                             0>                                                 
+                             posit_method=<POSIT_METHOD.ALL                     
+                             : 15> use_omega=False                              
+                             omega_dense=False num_poses=1                      
+                             allow_low_posit_prob=False                         
+                             low_posit_prob_thresh=0.1                          
+                             allow_final_clash=False                            
+                             allow_retries=False                                
+                    INFO     Dumping input schema to        cross_docking.py:106
+                             /lila/home/pengs/fold_zika/tes                     
+                             t_dock/test_output/inputs.json                     
+[03/29/24 15:51:18] INFO     Loading ligands from file:     cross_docking.py:126
+                             /lila/home/pengs/fold_zika/tes                     
+                             t_dock/input/lig_0.smi                             
+                    INFO     Loading structures     meta_structure_factory.py:79
+                             from pdb:                                          
+                             /lila/home/pengs/fold_                             
+                             zika/test_dock/input/N                             
+                             P_722463.1_lig_0.pdb                               
+                    INFO     Loaded 1 query ligands         cross_docking.py:142
+                    INFO     Loaded 1 complexes             cross_docking.py:144
+                    INFO     Prepping complexes             cross_docking.py:147
+done
+
+
+PS:
+
+Read file <log_files/dock_test.stderr> for stderr output of this job.
+

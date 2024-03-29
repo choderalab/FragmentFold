@@ -1,0 +1,2 @@
+docking-confidence-POSIT,ligand_id,complex_ligand_smiles,docking-structure-POSIT,target_identifiers,ligand_identifiers,SMILES,INCHIKEY,docking-score-POSIT
+0.91,unknown_ligand_0,c1ccc2c(c1)c(cc[nH+]2)N3CC[NH2+]CC3,NP_722463.1_lig_0,,,c1ccc2c(c1)c(ccn2)N3CC[NH2+]CC3,CGSWRHKBLLDUHO-UHFFFAOYSA-O,-3.3072128295898438

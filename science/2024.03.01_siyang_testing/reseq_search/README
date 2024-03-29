@@ -1,1 +1,3 @@
-The output of the refseq search and processing are kept here. 
+The output of the refseq search and processing are kept here.
+
+The file being used in processing for colabfold is clear_blank_seqs_found.txt. This file has the reference sequence of zika ns2b3 attached to the top of the sequences so could do MSA on it.  
