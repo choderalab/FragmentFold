@@ -1,0 +1,1 @@
+This folder contains the files I used to run colabfold and the output of the folded structures. The folder also contains notebook pre-process.ipynb used to put the ligands from the original crystal screen into the folded structure in the exact same conformation the ligands appeared in the crystal screen, put into folder called combined. 
