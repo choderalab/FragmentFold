@@ -1,0 +1,2 @@
+SMILES,ligand_id,in-silico_ZIKV-NS2B-NS3pro_docking-confidence-POSIT_msk,in-silico_ZIKV-NS2B-NS3pro_docking-structure-POSIT_msk,in-silico_ZIKV-NS2B-NS3pro_docking-score-POSIT_msk
+c1ccc2c(c1)c(ccn2)N3CC[NH2+]CC3,unknown_ligand_0,0.91,NP_722463.1_lig_0,-3.3072128295898438
