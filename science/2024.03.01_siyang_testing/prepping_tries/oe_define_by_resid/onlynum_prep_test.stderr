@@ -1,0 +1,33 @@
+Warning: Truncating title to 80 characters for ASP-MET-TYR-ILE-GLU-ARG-ALA-GLY-ASP-ILE-THR-TRP-GLU-LYS-ASP-ALA-GLU-VAL-THR-GLY-ASN-SER-PRO-ARG-LEU-ASP-VAL-ALA-LEU-ASP-GLU-SER-GLY-ASP-PHE-SER-LEU-VAL-GLU
+Warning: Truncating title to 80 characters for ASP-MET-TYR-ILE-GLU-ARG-ALA-GLY-ASP-ILE-THR-TRP-GLU-LYS-ASP-ALA-GLU-VAL-THR-GLY-ASN-SER-PRO-ARG-LEU-ASP-VAL-ALA-LEU-ASP-GLU-SER-GLY-ASP-PHE-SER-LEU-VAL-GLU
+Warning: No BioAssembly transforms found, using input molecule as biounit: _chainB_ASP-MET-TYR-ILE-GLU-ARG-ALA-GLY-ASP-ILE-THR-TRP-GLU-LYS-ASP-ALA-GLU-VAL-THR-GLY-
+Warning: Iridium - Structure: _chainB_ASP-MET-TYR-ILE-GLU-ARG-ALA-GLY-ASP-ILE-THR-TRP-GLU-LYS-ASP-ALA-GLU-VAL-THR-GLY- has no REMARK data
+Processing BU # 1 with title: _chainB_ASP-MET-TYR-ILE-GLU-ARG-ALA-GLY-ASP-ILE-THR-TRP-GLU-LYS-ASP-ALA-GLU-VAL-THR-GLY-, chains AB
+Warning: OEInteractionHintContainer() : cannot be initialized with the given ligand!
+Warning: OEPerceiveInteractionHints() active site is not initialized correctly!
+Skipping OEAM1BCCCharges charge engine, due to LIG(A-172) having > 100 atoms
+   Falling back to charging other_ligands with OEMMFF94Charges
+Warning: String input :161 for predicate is invalid
+Warning: Failed, input predicate does not match any atom in molecule __chainB_ASP-MET-TYR-ILE-GLU-ARG-ALA-GLY-ASP-ILE-THR-TRP-GLU-LYS-ASP-ALA-GLU-VAL-THR-GLY-(B)
+Warning: Failed, no pocket found with site residue predicate
+Warning: Unable to parse and utilize specified site residue :161 to define site in _chainB_ASP-MET-TYR-ILE-GLU-ARG-ALA-GLY-ASP-ILE-THR-TRP-GLU-LYS-ASP-ALA-GLU-VAL-THR-GLY- - skipping
+Traceback (most recent call last):
+  File "/home/pengs/miniconda3/envs/asapdiscovery/bin/asap-prep", line 8, in <module>
+    sys.exit(protein_prep())
+  File "/home/pengs/miniconda3/envs/asapdiscovery/lib/python3.10/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/pengs/miniconda3/envs/asapdiscovery/lib/python3.10/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/pengs/miniconda3/envs/asapdiscovery/lib/python3.10/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/pengs/miniconda3/envs/asapdiscovery/lib/python3.10/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/lila/home/pengs/asapdiscovery/asapdiscovery-workflows/asapdiscovery/workflows/prep_workflows/cli.py", line 122, in protein_prep
+    protein_prep_workflow(inputs)
+  File "/lila/home/pengs/asapdiscovery/asapdiscovery-workflows/asapdiscovery/workflows/prep_workflows/protein_prep.py", line 262, in protein_prep_workflow
+    prepped_complexes = prepper.prep(
+  File "/lila/home/pengs/asapdiscovery/asapdiscovery-modeling/asapdiscovery/modeling/protein_prep.py", line 157, in prep
+    outputs = self._prep(inputs=inputs)
+  File "/lila/home/pengs/asapdiscovery/asapdiscovery-modeling/asapdiscovery/modeling/protein_prep.py", line 310, in _prep
+    raise ValueError("Failed to make design unit.")
+ValueError: Failed to make design unit.
