@@ -10,7 +10,7 @@ source ~/.bashrc
 cd /home/pengs/fold_zika/test_prep
 conda activate asapdiscovery
 
-asap-prep --target ZIKV-NS2B-NS3pro --pdb-file zikv_ns3.pdb --output-dir orig_prepped --align zikv_ns3.pdb --oe-active-site-residue TYR:161::B --ref-chain B --active-site-chain B
+asap-prep --target ZIKV-NS2B-NS3pro --pdb-file zikv_ns2b3.pdb --output-dir orig_prepped --align zikv_ns2b3.pdb --oe-active-site-residue 'TYR:161: :B' --ref-chain B --active-site-chain B
 
 
 echo done
