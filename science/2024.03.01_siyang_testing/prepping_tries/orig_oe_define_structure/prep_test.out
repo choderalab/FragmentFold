@@ -1,0 +1,158 @@
+Sender: LSF System <lsfadmin@ln02>
+Subject: Job 5033225: <PREP> in cluster <lila> Done
+
+Job <PREP> was submitted from host <lilac-ln02> by user <pengs> in cluster <lila> at Wed Mar 27 13:39:35 2024
+Job was executed on host(s) <ln02>, in queue <gpuqueue>, as user <pengs> in cluster <lila> at Wed Mar 27 13:41:12 2024
+</home/pengs> was used as the home directory.
+</home/pengs/fold_zika/test_prep> was used as the working directory.
+Started at Wed Mar 27 13:41:12 2024
+Terminated at Wed Mar 27 13:42:59 2024
+Results reported at Wed Mar 27 13:42:59 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -J PREP
+#BSUB -n 1
+#BSUB -R rusage[mem=32]
+#BSUB -q gpuqueue
+#BSUB -gpu "num=1"
+#BSUB -W 10:00
+#BSUB -o log_files/prep_test.out
+#BSUB -e log_files/prep_test.stderr
+source ~/.bashrc
+cd /home/pengs/fold_zika/test_prep
+conda activate asapdiscovery
+
+asap-prep --target ZIKV-NS2B-NS3pro --pdb-file zikv_ns3.pdb --output-dir orig_prepped --align zikv_ns3.pdb --oe-active-site-residue TYR:161: :B --ref-chain B --active-site-chain B
+
+
+echo done
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   9.00 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     32.00 GB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                16
+    Run time :                                   107 sec.
+    Turnaround time :                            204 sec.
+
+The output (if any) follows:
+
+done
+
+
+PS:
+
+Read file <log_files/prep_test.stderr> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@lt11>
+Subject: Job 5129639: <PREP> in cluster <lila> Done
+
+Job <PREP> was submitted from host <lilac-ln02> by user <pengs> in cluster <lila> at Tue Apr  2 12:50:33 2024
+Job was executed on host(s) <lt11>, in queue <gpuqueue>, as user <pengs> in cluster <lila> at Tue Apr  2 12:50:52 2024
+</home/pengs> was used as the home directory.
+</home/pengs/fold_zika/test_prep> was used as the working directory.
+Started at Tue Apr  2 12:50:52 2024
+Terminated at Tue Apr  2 12:53:32 2024
+Results reported at Tue Apr  2 12:53:32 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#BSUB -J PREP
+#BSUB -n 1
+#BSUB -R rusage[mem=32]
+#BSUB -q gpuqueue
+#BSUB -gpu "num=1"
+#BSUB -W 10:00
+#BSUB -o log_files/prep_test.out
+#BSUB -e log_files/prep_test.stderr
+source ~/.bashrc
+cd /home/pengs/fold_zika/test_prep
+conda activate asapdiscovery
+
+asap-prep --target ZIKV-NS2B-NS3pro --pdb-file zikv_ns2b3.pdb --output-dir orig_prepped --align zikv_ns2b3.pdb --oe-active-site-residue 'TYR:161: :B' --ref-chain B --active-site-chain B
+
+
+echo done
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   26.00 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     32.00 GB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                16
+    Run time :                                   161 sec.
+    Turnaround time :                            179 sec.
+
+The output (if any) follows:
+
+[04/02/24 12:53:22] INFO     Running protein prep with       protein_prep.py:171
+                             inputs:                                            
+                             target=<TargetTags.ZIKV-NS2B-NS                    
+                             3pro: 'ZIKV-NS2B-NS3pro'>                          
+                             pdb_file=PosixPath('/lila/home/                    
+                             pengs/fold_zika/test_prep/zikv_                    
+                             ns2b3.pdb') fragalysis_dir=None                    
+                             structure_dir=None                                 
+                             cache_dir=None                                     
+                             save_to_cache=True                                 
+                             align=PosixPath('/lila/home/pen                    
+                             gs/fold_zika/test_prep/zikv_ns2                    
+                             b3.pdb') ref_chain='B'                             
+                             active_site_chain='B'                              
+                             seqres_yaml=None loop_db=None                      
+                             oe_active_site_residue='TYR:161                    
+                             : :B' use_dask=False                               
+                             dask_type=<DaskType.LOCAL:                         
+                             'local'>                                           
+                             dask_cluster_n_workers=10                          
+                             dask_cluster_max_workers=40                        
+                             logname='' loglevel=20                             
+                             output_dir=PosixPath('/lila/hom                    
+                             e/pengs/fold_zika/test_prep/ori                    
+                             g_prepped')                                        
+                    INFO     Dumping input schema to         protein_prep.py:172
+                             /lila/home/pengs/fold_zika/test                    
+                             _prep/orig_prepped/inputs.json                     
+                    INFO     Loading structures from pdb:    protein_prep.py:216
+                             /lila/home/pengs/fold_zika/test                    
+                             _prep/zikv_ns2b3.pdb                               
+                    INFO     Loaded 1 complexes              protein_prep.py:229
+                    INFO     No seqres yaml specified,       protein_prep.py:232
+                             selecting based on target:                         
+                             ZIKV-NS2B-NS3pro                                   
+                    INFO     Loading and aligning to         protein_prep.py:239
+                             reference structure:                               
+                             /lila/home/pengs/fold_zika/test                    
+                             _prep/zikv_ns2b3.pdb                               
+                    INFO     Prepping complexes              protein_prep.py:252
+                    INFO     Prepping 1 complexes            protein_prep.py:146
+No mutations found
+done
+
+
+PS:
+
+Read file <log_files/prep_test.stderr> for stderr output of this job.
+
