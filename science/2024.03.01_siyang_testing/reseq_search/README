@@ -1,3 +1,5 @@
-The output of the refseq search and processing are kept here.
+The output of the refseq search and processing are kept here. Only keep Dengue subtypes and West Nile virus hits. 
 
-The file being used in processing for colabfold is clear_blank_seqs_found.txt. This file has the reference sequence of zika ns2b3 attached to the top of the sequences so could do MSA on it.  
+The process for searching the entire amino acid sequence in both chains. Keep the process for this in directory 2chains. The file being used in processing for colabfold is clear_blank_seqs_found.txt. This file has the reference sequence of zika ns2b3 attached to the top of the sequences so could do MSA on it.  
+
+The process for searching only the ns3 portion of the protein sequence and find the refseq sequences that match this since most of the proteins match this portion and would align better with the reference protein. Keep this in folder only_ns3. Also has multiple sequence aligned map of pdb residue id to the canonical mapping in msa_map.json. 

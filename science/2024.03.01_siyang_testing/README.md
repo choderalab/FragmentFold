@@ -6,3 +6,4 @@ The colabfold folder contains structure generation of Xray fragments bound to co
 The prepped folder contains scripts and results from trying to prep all of the strucutures.
 The docking_tries folder contains scripts tried for docking ligand into generated structures.
 The troubleshoot_notebooks folder details attempts at tracing back the issue with --oe-active-residue utilization in asap-prep, which is an attempt to prep ligand in structures that failed to prep in prepped.
+Most of the code is run in asapdiscovery conda environment. ODDT related work is done in oddt conda environment. ProLIF related work is done in prolif conda environment. 
