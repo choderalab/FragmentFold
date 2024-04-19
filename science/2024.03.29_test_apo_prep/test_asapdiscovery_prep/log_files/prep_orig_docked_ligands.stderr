@@ -1,0 +1,102 @@
+Warning: OE3DToAtomStereo is unable to perceive atom stereo from a flat geometry on atom 9 of molecule 'LIG'
+Warning: OE3DToAtomStereo is unable to perceive atom stereo from a flat geometry on atom 11 of molecule 'LIG'
+Warning: OE3DToAtomStereo had a problem during OEWriteMolecule when writing 'LIG'
+Warning: Truncating title to 80 characters for ASP-MET-TYR-ILE-GLU-ARG-ALA-GLY-ASP-ILE-THR-TRP-GLU-LYS-ASP-ALA-GLU-VAL-THR-GLY-ASN-SER-PRO-ARG-LEU-ASP-VAL-ALA-LEU-ASP-GLU-SER-GLY-ASP-PHE-SER-LEU-VAL-GLU
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_33_LIG
+Warning: Iridium - Structure: _lig_33_LIG has no REMARK data
+Processing BU # 1 with title: _lig_33_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_32_LIG
+Warning: Iridium - Structure: _lig_32_LIG has no REMARK data
+Processing BU # 1 with title: _lig_32_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_27_LIG
+Warning: Iridium - Structure: _lig_27_LIG has no REMARK data
+Processing BU # 1 with title: _lig_27_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_20_LIG
+Warning: Iridium - Structure: _lig_20_LIG has no REMARK data
+Processing BU # 1 with title: _lig_20_LIG, chains AB
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_39_LIG
+Warning: Iridium - Structure: _lig_39_LIG has no REMARK data
+Processing BU # 1 with title: _lig_39_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_52_LIG
+Warning: Iridium - Structure: _lig_52_LIG has no REMARK data
+Processing BU # 1 with title: _lig_52_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_92_LIG
+Warning: Iridium - Structure: _lig_92_LIG has no REMARK data
+Processing BU # 1 with title: _lig_92_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_0_LIG
+Warning: Iridium - Structure: _lig_0_LIG has no REMARK data
+Processing BU # 1 with title: _lig_0_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_41_LIG
+Warning: Iridium - Structure: _lig_41_LIG has no REMARK data
+Processing BU # 1 with title: _lig_41_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_10_LIG
+Warning: Iridium - Structure: _lig_10_LIG has no REMARK data
+Processing BU # 1 with title: _lig_10_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_88_LIG
+Warning: Iridium - Structure: _lig_88_LIG has no REMARK data
+Processing BU # 1 with title: _lig_88_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_72_LIG
+Warning: Iridium - Structure: _lig_72_LIG has no REMARK data
+Processing BU # 1 with title: _lig_72_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_11_LIG
+Warning: Iridium - Structure: _lig_11_LIG has no REMARK data
+Processing BU # 1 with title: _lig_11_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_42_LIG
+Warning: Iridium - Structure: _lig_42_LIG has no REMARK data
+Processing BU # 1 with title: _lig_42_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_54_LIG
+Warning: Iridium - Structure: _lig_54_LIG has no REMARK data
+Processing BU # 1 with title: _lig_54_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_38_LIG
+Warning: Iridium - Structure: _lig_38_LIG has no REMARK data
+Processing BU # 1 with title: _lig_38_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_30_LIG
+Warning: Iridium - Structure: _lig_30_LIG has no REMARK data
+Processing BU # 1 with title: _lig_30_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_83_LIG
+Warning: Iridium - Structure: _lig_83_LIG has no REMARK data
+Processing BU # 1 with title: _lig_83_LIG, chains A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Warning: No BioAssembly transforms found, using input molecule as biounit: _lig_9_LIG
+Warning: Iridium - Structure: _lig_9_LIG has no REMARK data
+Processing BU # 1 with title: _lig_9_LIG, chains A
+Warning: OEPlaceHydrogens: mol _lig_48_LIG has heavy atoms ' O   LYS 169   B 1  ' and 'C LIG 172     0  ' too close 0.34 < 0.5A
+Warning: Detected residue with blank chain ID LIG 172     0  
+Traceback (most recent call last):
+  File "/home/paynea/miniforge3/envs/asapdiscovery/bin/asap-prep", line 8, in <module>
+    sys.exit(protein_prep())
+  File "/lila/home/paynea/miniforge3/envs/asapdiscovery/lib/python3.10/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/lila/home/paynea/miniforge3/envs/asapdiscovery/lib/python3.10/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/lila/home/paynea/miniforge3/envs/asapdiscovery/lib/python3.10/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/lila/home/paynea/miniforge3/envs/asapdiscovery/lib/python3.10/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/lila/data/chodera/paynea/asapdiscovery/asapdiscovery-workflows/asapdiscovery/workflows/prep_workflows/cli.py", line 122, in protein_prep
+    protein_prep_workflow(inputs)
+  File "/lila/data/chodera/paynea/asapdiscovery/asapdiscovery-workflows/asapdiscovery/workflows/prep_workflows/protein_prep.py", line 262, in protein_prep_workflow
+    prepped_complexes = prepper.prep(
+  File "/lila/data/chodera/paynea/asapdiscovery/asapdiscovery-modeling/asapdiscovery/modeling/protein_prep.py", line 156, in prep
+    outputs = self._prep(inputs=inputs)
+  File "/lila/data/chodera/paynea/asapdiscovery/asapdiscovery-modeling/asapdiscovery/modeling/protein_prep.py", line 298, in _prep
+    raise ValueError(
+ValueError: Prep failed, with error message: 

@@ -1,0 +1,126 @@
+Sender: LSF System <lsfadmin@lt09>
+Subject: Job 5154596: <holo_zika_screen_prep> in cluster <lila> Done
+
+Job <holo_zika_screen_prep> was submitted from host <lilac-ln02> by user <paynea> in cluster <lila> at Wed Apr  3 15:33:52 2024
+Job was executed on host(s) <16*lt09>, in queue <cpuqueue>, as user <paynea> in cluster <lila> at Wed Apr  3 15:33:59 2024
+</home/paynea> was used as the home directory.
+</data/chodera/paynea/fragment-fold/science/2024.03.29_test_apo_prep/test_asapdiscovery_prep> was used as the working directory.
+Started at Wed Apr  3 15:33:59 2024
+Terminated at Wed Apr  3 15:43:47 2024
+Results reported at Wed Apr  3 15:43:47 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -J holo_zika_screen_prep
+#BSUB -n 16
+#BSUB -R rusage[mem=4]
+#BSUB -q cpuqueue
+#BSUB -W 2:00
+#BSUB -oo log_files/prep_orig_docked_ligands.out
+#BSUB -eo log_files/prep_orig_docked_ligands.stderr
+source ~/.bashrc
+conda activate asapdiscovery
+asap-prep \
+--target ZIKV-NS2B-NS3pro \
+--structure-dir /data/chodera/paynea/fragment-fold/data/ns2-ns3b-zika-fragment-screen/fragment-screen-inputs/output \
+--output-dir apo_prepped \
+--ref-chain B \
+--active-site-chain B
+echo done
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   526.27 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     64.00 GB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                29
+    Run time :                                   590 sec.
+    Turnaround time :                            595 sec.
+
+The output (if any) follows:
+
+[04/03/24 15:35:17] INFO     Running protein prep with       protein_prep.py:171
+                             inputs:                                            
+                             target=<TargetTags.ZIKV-NS2B-NS                    
+                             3pro: 'ZIKV-NS2B-NS3pro'>                          
+                             pdb_file=None                                      
+                             fragalysis_dir=None                                
+                             structure_dir=PosixPath('/lila/                    
+                             data/chodera/paynea/fragment-fo                    
+                             ld/data/ns2-ns3b-zika-fragment-                    
+                             screen/fragment-screen-inputs/o                    
+                             utput') cache_dir=None                             
+                             save_to_cache=True align=None                      
+                             ref_chain='B'                                      
+                             active_site_chain='B'                              
+                             seqres_yaml=None loop_db=None                      
+                             oe_active_site_residue=None                        
+                             use_dask=False                                     
+                             dask_type=<DaskType.LOCAL:                         
+                             'local'>                                           
+                             dask_cluster_n_workers=10                          
+                             dask_cluster_max_workers=40                        
+                             logname='' loglevel=20                             
+                             output_dir=PosixPath('/lila/dat                    
+                             a/chodera/paynea/fragment-fold/                    
+                             science/2024.03.29_test_apo_pre                    
+                             p/test_asapdiscovery_prep/apo_p                    
+                             repped')                                           
+                    INFO     Dumping input schema to         protein_prep.py:172
+                             /lila/data/chodera/paynea/fragm                    
+                             ent-fold/science/2024.03.29_tes                    
+                             t_apo_prep/test_asapdiscovery_p                    
+                             rep/apo_prepped/inputs.json                        
+                    INFO     Loading structures from         protein_prep.py:205
+                             directory:                                         
+                             /lila/data/chodera/paynea/fragm                    
+                             ent-fold/data/ns2-ns3b-zika-fra                    
+                             gment-screen/fragment-screen-in                    
+                             puts/output                                        
+[04/03/24 15:35:20] INFO     Loaded 78 complexes             protein_prep.py:229
+                    INFO     No seqres yaml specified,       protein_prep.py:232
+                             selecting based on target:                         
+                             ZIKV-NS2B-NS3pro                                   
+                    INFO     No reference structure          protein_prep.py:242
+                             specified, using canonical                         
+                             structure                                          
+[04/03/24 15:35:22] INFO     Prepping complexes              protein_prep.py:252
+                    INFO     Prepping 78 complexes           protein_prep.py:145
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+No mutations found
+done
+
+
+PS:
+
+Read file <log_files/prep_orig_docked_ligands.stderr> for stderr output of this job.
+
